@@ -11,16 +11,21 @@
 <div data-role="page" id="modifyPs">
     <div data-role="header">
         <a href="#" data-role="button" data-icon="carat-l" data-iconpos="notext"></a>
+
         <h1>修改密码</h1>
     </div>
     <!--/head-->
-    <form data-role="content" method="post" action="" id="modifyUp">
-            手机号<input type="text" placeholder="输入手机号"/>
-            验证码<input type="text" placeholder="输入验证码"/>
+    <div data-role="content">
+        <form method="post" action="" id="modifyUp">
+            <div data-role="fieldcontain">
+                <label>手机号</label><input type="text" placeholder="输入手机号"/>
+                <label>验证码</label><input type="text" placeholder="输入验证码"/>
 
-            密码</span> <input type="text" placeholder="再次输入新密码"/>
-            确认密码</span> <input type="text" placeholder="再次输入新密码"/>
-    </form>
+                <label>密码</label><input type="text" placeholder="再次输入新密码"/>
+                <label>确认密码</label><input type="text" placeholder="再次输入新密码"/>
+            </div>
+        </form>
+    </div>
     <!--/content-->
 
     <div data-role="footer" data-position="fixed">
