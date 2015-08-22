@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/jquery.mobile.css"/>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div data-role="page" id="login">
+    <div data-role="header">
+        <a href="#" data-role="button" data-icon="carat-l" data-iconpos="notext"></a>
+        <h1>登录</h1>
+    </div>
+    <!--/head-->
+    <form data-role="content" method="post" action="#">
+        <input type="text" name="username" placeholder="账号"/>
+        <input type="password" name="password" placeholder="密码"/>
+        <a href="#" class="fr">忘记密码</a>
+    </form>
+    <!--/content-->
+    <div data-role="footer" data-position="fixed">
+        <button>登录</button>
+    </div>
+
+</div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.mobile.js"></script>
+</body>
+</html>
