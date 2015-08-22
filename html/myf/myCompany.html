@@ -1,0 +1,77 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="../../css/jquery.mobile.css"/>
+    <link rel="stylesheet" href="../../css/main.css">
+    <style>h5 {
+        text-align: center;
+    }</style>
+</head>
+<body id="my-company">
+<div data-role="page">
+    <div data-role="header">
+        <a href="../../index.html" data-role="button" data-icon="back" data-iconpos="notext"></a>
+        <h1>我的工厂</h1>
+    </div>
+    <!--/头部-->
+    <div data-role="content">
+
+        <!--------------------------趋势图显示30天内工厂总针数每日变化-------------------------------->
+        <div>
+            <div id="stitches-container"></div>
+            <div data-role="controlgroup" data-type="horizontal" class="fix">
+                <a href="dayStitches.html" data-role="button" class="fill50">今日</a>
+                <a href="dayStitches.html" data-role="button" class="fill50">昨日</a>
+            </div>
+        </div>
+        <!--------------------------------------------------------------------------------------->
+
+
+        <!------------------------趋势图显示30天内工厂工资总额每日变化----------------->
+        <div>
+            <div id="wage-container"></div>
+            <div data-role="controlgroup" data-type="horizontal" class="fix">
+                <a href="dayWage.html" data-role="button">今日</a>
+                <a href="dayWage.html" data-role="button">昨日</a>
+            </div>
+        </div>
+        <!------------------------------------------------------------------------->
+
+
+        <!------------------------------------------------------------------------->
+        <div>
+            <div id="boot-container"></div>
+            <div data-role="controlgroup" data-type="horizontal" class="fix">
+                <a href="dayBoot.html" data-role="button">今日</a>
+                <a href="dayBoot.html" data-role="button">昨日</a>
+            </div>
+        </div>
+        <!------------------------------------------------------------------------->
+
+
+        <!------------------------------------------------------------------------->
+        <div>
+            <div id="punch-container"></div>
+            <div data-role="controlgroup" data-type="horizontal" class="fix">
+                <a href="dayPunch.html" data-role="button">今日</a>
+                <a href="dayPunch.html" data-role="button">昨日</a>
+            </div>
+        </div>
+        <!------------------------------------------------------------------------->
+
+
+    </div>
+    <!--/内容-->
+</div>
+<script src="../../js/jquery-1.11.3.min.js"></script>
+<script src="../../js/jquery.mobile.js"></script>
+<script src="../../js/dt.js"></script>
+<script src="../../js/stitches-container.js"></script>
+<script src="../../js/wage-container.js"></script>
+<script src="../../js/boot-container.js"></script>
+<script src="../../js/punch-container.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html class="no-js" lang="" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../css/normalize.css">
+    <link rel="stylesheet" href="../../../css/jquery.mobile.css"/>
+    <link rel="stylesheet" href="../../../css/main.css">
+</head>
+<body>
+<!--性别选择表单-->
+<div data-role="page" id="selectGender">
+    <div data-role="header">
+        <a href="personalInformation.html" data-role="button" data-icon="back" data-iconpos="notext"></a>
+
+        <h1>选择性别</h1>
+    </div>
+    <!--/head-->
+    <form data-role="content" method="post" action="" id="chooseGender">
+        <fieldset data-role="controlgroup">
+            <legend>请选择您的性别</legend>
+            <label for="male">男</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">女</label>
+            <input type="radio" name="gender" id="female" value="female">
+        </fieldset>
+    </form>
+    <!--/content-->
+    <div data-role="footer" data-position="fixed">
+        <button form="chooseGender">确定</button>
+    </div>
+    <!--/foot-->
+
+</div>
+<script src="../../../js/jquery-1.11.3.min.js"></script>
+<script src="../../../js/jquery.mobile.js"></script>
+</body>
+</html>

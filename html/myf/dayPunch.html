@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="../../css/jquery.mobile.css"/>
+    <link rel="stylesheet" href="../../css/main.css">
+</head>
+<body>
+<div data-role="page" id="dayPunch">
+
+    <div data-role="header">
+        <a href="myCompany.html" data-role="button" data-icon="back" data-iconpos="notext"></a>
+        <h1>每日打卡</h1>
+    </div>
+    <!--/head-->
+    <div data-role="content">
+        <p class="punch-time">2015/2/25</p>
+
+        <div class="fix" data-role="controlgroup" data-type="horizontal">
+            <a href="#" data-role="button">按班次排序</a>
+            <a href="#" data-role="button">按工号排序</a>
+        </div>
+
+        <ul data-role="listview">
+            <li data-icon="false">
+                <p>工号：<span>002456</span><span> 王菲</span></p>
+
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <p>上班时间：6：00</p>
+
+                        <p>工作时间：8小时</p>
+
+                        <p>工<span class="em2">资：</span>￥600</p>
+                    </div>
+                    <div class="ui-block-b">
+                        <p>下班时间：4：00</p>
+
+                        <p>班<span class="em2">次：</span>1班</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+    <!--/content-->
+</div>
+<script src="../../js/jquery-1.11.3.min.js"></script>
+<script src="../../js/jquery.mobile.js"></script>
+</body>
+</html>

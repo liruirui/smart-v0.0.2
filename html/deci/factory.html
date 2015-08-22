@@ -1,0 +1,41 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="../../css/jquery.mobile.css"/>
+    <link rel="stylesheet" href="../../css/main.css">
+</head>
+<body>
+<div data-role="page" id="dayPage">
+    <div data-role="header">
+        <!--点击回退按钮返回首页-->
+        <a data-role="button" data-rel="back" data-iconpos="notext" data-icon="back" href="../../index.html">首页</a>
+        <h1 class="fixh1">
+            <a href="#" data-role="button" class="">工厂</a>
+            <a href="workshop.html" data-role="button" data-transition="none">车间</a>
+            <a href="#" data-role="button">机器</a>
+        </h1>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#">日</a></li>
+                <li><a href="#">月</a></li>
+                <li><a href="#">年</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--/头部-->
+    <div data-role="content">
+        <!--饼状图绘制区域-->
+        <div id="stitches-container"></div>
+        <div id="pie-container"></div>
+    </div>
+</div>
+<script src="../../js/jquery-1.11.3.min.js"></script>
+<script src="../../js/jquery.mobile.js"></script>
+<script src="../../js/dt.js"></script>
+<script src="../../js/stitches-container.js"></script>
+<script src="../../js/pie.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="../../css/jquery.mobile.css"/>
+    <link rel="stylesheet" href="../../css/main.css">
+    <style>
+
+    </style>
+</head>
+<body>
+<div data-role="page" id="dayStitches">
+    <div data-role="header">
+        <a href="myCompany.html" data-role="button" data-icon="back" data-iconpos="notext"></a>
+        <h1>每日针数</h1>
+    </div>
+    <!--/head-->
+
+
+    <!--
+        内容：每台机器针数(仅显示有生产针数的机器，按机器名称排序)，并生成前5名机器产量的柱形报表
+    -->
+    <div data-role="content">
+        <div id="NNeedl"></div>
+        <!--/针数趋势图表-->
+        <ul data-role="listview" class="space">
+            <li data-icon="false"><a href="#">机器NO.1  生产针数：<span class="ui-li-count">5000</span></a></li>
+            <li data-icon="false"><a href="#">机器NO.2  生产针数：<span class="ui-li-count">5000</span></a></li>
+            <li data-icon="false"><a href="#">机器NO.3  生产针数：<span class="ui-li-count">5000</span></a></li>
+            <li data-icon="false"><a href="#">机器NO.4  生产针数：<span class="ui-li-count">5000</span></a></li>
+        </ul>
+    </div>s
+    <!--/content-->
+</div>
+
+
+<script src="../../js/jquery-1.11.3.min.js"></script>
+<script src="../../js/jquery.mobile.js"></script>
+<script src="../../js/dt.js"></script>
+<script src="../../js/dayNeedl.js"></script>
+<script>
+
+</script>
+
+</body>
+</html>
