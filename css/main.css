@@ -311,6 +311,7 @@ textarea {
 /*}*/
 .hot {
     background: url("../img/index/yuan.png") 0 0 no-repeat;
+    color: #fff;
 }
 .index .ui-block-a, #index .ui-block-b {
     text-align: center
