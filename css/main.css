@@ -293,22 +293,25 @@ textarea {
     text-decoration: none !important;
 }
 .reset-textarea{height:200px !important;}
-.index-title {
-    font-size: 64px;
-    color: #8c3b08;
-    text-align: center;
-    margin-bottom: 50px;
-    background: #e9e9e9 /*{a-bar-background-color}*/;
-    border-color: #ddd /*{a-bar-border}*/;
-    text-shadow: 0 /*{a-bar-shadow-x}*/ 1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #eee /*{a-bar-shadow-color}*/;
-    font-weight: bold;
-}
 
-.index-title span {
-    color: #fff;
-    background-color: #f00;
-}
+/*.index-title {*/
+/*font-size: 64px;*/
+/*color: #8c3b08;*/
+/*text-align: center;*/
+/*margin-bottom: 50px;*/
+/*background: #e9e9e9 *//*{a-bar-background-color}*//*;*/
+/*border-color: #ddd *//*{a-bar-border}*//*;*/
+/*text-shadow: 0 *//*{a-bar-shadow-x}*//* 1px *//*{a-bar-shadow-y}*//* 0 *//*{a-bar-shadow-radius}*//* #eee *//*{a-bar-shadow-color}*//*;*/
+/*font-weight: bold;*/
+/*}*/
 
+/*.index-title span {*/
+/*color: #fff;*/
+/*background-color: #f00;*/
+/*}*/
+.hot {
+    background: url("../img/index/yuan.png") 0 0 no-repeat;
+}
 .index .ui-block-a, #index .ui-block-b {
     text-align: center
 }
