@@ -321,11 +321,6 @@ textarea {
 
 
 /*决策支持fix*/
-.fixh1{
-    margin:0 !important;
-    padding:0 !important;
-    overflow: visible !important;
-}
 
 #my-company .ui-controlgroup-controls, #dayPunch .ui-controlgroup-controls {
     width:100%;
