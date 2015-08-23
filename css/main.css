@@ -376,3 +376,7 @@ textarea {
     stroke: #000;
     shape-rendering: crispEdges;
 }
+/*重置button*/
+#factory a, #machine a, #workshop a{
+    text-decoration: none !important;
+}
