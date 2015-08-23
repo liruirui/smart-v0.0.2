@@ -1746,8 +1746,6 @@ div.ui-mobile-viewport {
 
 .ui-header,
 .ui-footer {
-    border-width: 1px 0;
-    border-style: solid;
     position: relative;
 }
 
@@ -3410,6 +3408,7 @@ li.ui-block-e {
 .ui-footer-fixed {
     bottom: -1px;
     padding-bottom: 1px;
+    background: transparent !important;
 }
 
 .ui-footer-fixed.ui-fixed-hidden {
@@ -4593,6 +4592,7 @@ fieldset.ui-controlgroup {
     font-weight: bold;
     cursor: default;
     outline: 0; /* Dividers in custom selectmenus have tabindex */
+    background: #f0ebeb !important;
 }
 
 .ui-listview > .ui-li-has-count > .ui-btn,
