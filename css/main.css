@@ -317,9 +317,9 @@ textarea {
     text-align: center
 }
 
-.index .ui-grid-a a:nth-child(2) > img {
-    margin: 38px 0;
-}
+/*.index .ui-grid-a a:nth-child(2) > img {*/
+/*margin: 38px 0;*/
+/*}*/
 #user-help ul[data-role="controlgroup"]{margin-top:38px; color:#333;}
 #user-help ul[data-role="controlgroup"] li:nth-child(2){margin-top:18px; color:#5e5e5e;}
 
