@@ -384,3 +384,7 @@ textarea {
 #factory a, #machine a, #workshop a{
     text-decoration: none !important;
 }
+
+.border-none {
+    border-color: transparent !important;
+}
