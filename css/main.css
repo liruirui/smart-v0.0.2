@@ -388,3 +388,7 @@ textarea {
 .border-none {
     border-color: transparent !important;
 }
+
+.color-white {
+    color: #fff !important;
+}
