@@ -18,6 +18,19 @@
     <script>$(function () {
         FastClick.attach(document.body);
     });</script>
+    <script>
+        $(function () {
+            $('.ui-btn').css({
+                'background': '#f6f6f6',
+                'color': '#000'
+            });
+            $('.ui-header .ui-title ~ .ui-navbar .ui-btn').css({
+                'border-left-width': '0',
+                'border-bottom-width': '1px',
+                'border-right': '1px solid #ddd'
+            })
+        })
+    </script>
 </head>
 <body>
 <div data-role="page" id="FactoryDayPage">
@@ -27,7 +40,7 @@
         <h1>车间</h1></div>
     <div data-role="navbar">
         <ul>
-            <li><a href="#">日</a></li>
+            <li><a href="#" class="ui-btn-active ui-state-persist">日</a></li>
             <li><a href="#">月</a></li>
             <li><a href="#">年</a></li>
         </ul>
