@@ -482,3 +482,20 @@ textarea {
     color: #c31f26 !important;
     font-weight: bold !important;
 }
+
+/*sortLayer*/
+.dayStitches .pop {
+    background: #2a2a2a;
+    border-color: #1d1d1d;
+    color: #fff;
+    text-shadow: 0 1px 0 #111;
+    z-index: 1000;
+}
+
+.dayStitches .pop a {
+    display: block;
+    padding: 10px 25px;
+    text-align: center;
+    color: #fff !important;
+    border-bottom: 1px solid #3a3a3a;
+}
