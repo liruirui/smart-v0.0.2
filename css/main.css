@@ -288,6 +288,10 @@ textarea {
 .tr{
     text-align: right;
 }
+
+.col98 {
+    color: #989898 !important;
+}
 .reset-color{color:#333;!important;}
 .reset{
     background: transparent !important;

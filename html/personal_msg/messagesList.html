@@ -20,19 +20,18 @@
     <div data-role="header">
         <a href="#" data-role="button" data-rel="back" data-icon="carat-l" data-iconpos="notext"></a>
         <h1>消息中心</h1>
-        <!--
-             内容区域要动态加载，根据用户点击【系统消息】或【个人消息】选择性的加载内容
-         -->
-        <div data-role="navbar">
-            <ul>
-                <li><a href="#" class="ui-btn-active ui-state-persist">系统消息</a></li>
-                <li><a href="#">个人消息</a></li>
-            </ul>
-        </div>
-        <!-- /navbar -->
     </div>
     <!--/head-->
-
+    <!--
+                内容区域要动态加载，根据用户点击【系统消息】或【个人消息】选择性的加载内容
+            -->
+    <div data-role="navbar">
+        <ul>
+            <li><a href="#" class="ui-btn-active ui-state-persist">系统消息</a></li>
+            <li><a href="#">个人消息</a></li>
+        </ul>
+    </div>
+    <!-- /navbar -->
         <!--
             消息列表模板，动态追加到page上
         -->
@@ -41,7 +40,8 @@
             <li data-icon="false">
                 <a href="messageCon.html"><img src="../../img/xiaoxinzhongxin/tips.png" class="ui-li-icon">紧急通知：【系统信息标题字段】
                     <p>【通知详情】</p>
-                    <p class="tr">2015/2/25 12：30</p>
+
+                    <p class="tr col98">2015/2/25 12：30</p>
                 </a>
             </li>
         </ul>

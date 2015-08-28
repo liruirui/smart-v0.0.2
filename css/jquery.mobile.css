@@ -4682,6 +4682,7 @@ fieldset.ui-controlgroup {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+    color: #5e5e5e;
 }
 
 .ui-listview .ui-li-aside {
