@@ -23,8 +23,13 @@
         <h1>每日打卡</h1></div>
     <div data-role="content"><p class="punch-time">2015/2/25</p>
 
-        <div class="fix" data-role="controlgroup" data-type="horizontal"><a href="#" data-role="button">按班次排序</a><a
-                href="#" data-role="button">按工号排序</a></div>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#" class="ui-btn-active ui-state-persist" id="sysMsg">按班次排序</a></li>
+                <li><a href="#">按工号排序</a></li>
+            </ul>
+        </div>
+        <li data-role="lisr-divider"></li>
         <ul data-role="listview">
             <li data-icon="false" class="bg-color-white"><p>工号：<span>002456</span><span> 王菲</span></p>
 
