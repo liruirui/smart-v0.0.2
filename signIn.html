@@ -13,6 +13,7 @@
 <div data-role="page" id="login" class="login">
     <div data-role="header">
         <a href="#" data-role="button" data-rel="back" data-icon="carat-l" data-iconpos="notext"></a>
+
         <h1>登录</h1>
 
         <div style="position:absolute;right:15px;bottom:9px;">
@@ -21,10 +22,8 @@
     </div>
     <!--/head-->
     <form data-role="content" method="post" action="#" id="signIn">
-        <img class="ui-li-icon" src="img/login/user-2.png" alt=""/> <!--图标在输入框内-->
-        <input type="text" name="username" placeholder="账号"/>
-        <img class="ui-li-icon" src="img/login/pwd-2.png" alt=""/>
-        <input type="password" name="password" placeholder="密码"/>
+        <input type="text" name="username" placeholder="账号" id="username"/>
+        <input type="password" name="password" placeholder="密码" id="password"/>
         <a href="modifyPsd.html" class="fr">忘记密码</a>
     </form>
     <!--/content-->
@@ -34,5 +33,17 @@
 </div>
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/jquery.mobile.js"></script>
+<script>
+    $(function () {
+        $('#username').parent().css({
+            'background': 'url(img/login/user-2.png) #fff no-repeat 0 center',
+            'padding-left': '23px'
+        });
+        $('#password').parent().css({
+            'background': 'url(img/login/pwd-2.png) #fff no-repeat 0 center',
+            'padding-left': '23px'
+        })
+    })
+</script>
 </body>
 </html>

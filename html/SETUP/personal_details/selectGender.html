@@ -16,29 +16,20 @@
     });</script>
 </head>
 <body>
-<!--性别选择表单-->
 <div data-role="page" id="selectGender">
-    <div data-role="header">
-        <a href="#" data-role="button" data-rel="back" data-icon="carat-l" data-iconpos="notext"></a>
-        <h1>选择性别</h1>
-    </div>
-    <!--/head-->
+    <div data-role="header"><a href="#" data-role="button" data-rel="back" data-icon="carat-l"
+                               data-iconpos="notext"></a>
+
+        <h1>选择性别</h1></div>
     <form data-role="content" method="post" action="" id="chooseGender">
         <fieldset data-role="controlgroup">
             <legend>请选择您的性别</legend>
-            <label for="male">男</label>
-            <input type="radio" name="gender" id="male" value="male">
-            <label for="female">女</label>
-            <input type="radio" name="gender" id="female" value="female">
-        </fieldset>
+            <label for="male">男</label><input type="radio" name="gender" id="male" value="male"><label
+                for="female">女</label><input type="radio" name="gender" id="female" value="female"></fieldset>
     </form>
-    <!--/content-->
     <div data-role="footer" data-position="fixed">
         <button form="chooseGender">确定</button>
     </div>
-    <!--/foot-->
-
 </div>
-
 </body>
 </html>
