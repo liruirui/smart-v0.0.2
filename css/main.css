@@ -16,7 +16,11 @@ html {
     line-height: 1.4;
 }
 
-
+a {
+    font-size: smaller;
+    text-decoration: none;
+    font-weight: normal !important;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -315,6 +319,10 @@ textarea {
 }
 .index .ui-block-a, #index .ui-block-b {
     text-align: center
+}
+
+.disinherit {
+    display: inherit !important;
 }
 
 /*.index .ui-grid-a a:nth-child(2) > img {*/
