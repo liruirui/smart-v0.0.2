@@ -17,31 +17,24 @@
 </head>
 <body>
 <div data-role="page" id="selectAge">
-    <div data-role="header">
-        <a href="#" data-role="button" data-rel="back" data-icon="carat-l" data-iconpos="notext"></a>
-        <h1>选择年龄</h1>
-    </div>
-    <!--/head-->
+    <div data-role="header"><a href="#" data-role="button" data-rel="back" data-icon="carat-l"
+                               data-iconpos="notext"></a>
+
+        <h1>选择年龄</h1></div>
     <form data-role="content" method="post" action="" id="chooseAge">
-        <fieldset data-role="fieldcontain">
-            <label for="day">请选择年龄</label>
-            <select name="day" id="day">
-                <option value="mon">20</option>
-                <option value="tue">21</option>
-                <option value="wed">22</option>
-                <option value="thu" selected>23</option>
-                <option value="fri">24</option>
-                <option value="sat">25</option>
-                <option value="sun">26</option>
-            </select>
-        </fieldset>
+        <fieldset data-role="fieldcontain"><label for="day">请选择年龄</label><select name="day" id="day">
+            <option value="mon">20</option>
+            <option value="tue">21</option>
+            <option value="wed">22</option>
+            <option value="thu" selected>23</option>
+            <option value="fri">24</option>
+            <option value="sat">25</option>
+            <option value="sun">26</option>
+        </select></fieldset>
     </form>
-    <!--/content-->
     <div data-role="footer" data-position="fixed">
         <button form="chooseAge">确定</button>
     </div>
-
 </div>
-
 </body>
 </html>
