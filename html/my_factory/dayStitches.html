@@ -16,13 +16,25 @@
     <script>$(function () {
         FastClick.attach(document.body);
     });</script>
+    <script>
+        $(function () {
+            $('#sort').click(function (evt) {
+                evt.preventDefault();
+            })
+        })
+    </script>
 </head>
 <body>
 <div data-role="page" id="dayStitches">
     <div data-role="header"><a href="#" data-role="button" data-rel="back" data-icon="carat-l"
                                data-iconpos="notext"></a>
 
-        <h1>每日针数</h1></div>
+        <h1>每日针数</h1>
+
+        <div style="position:absolute;right:15px;bottom:9px;">
+            <a id="sort" href="#" style="text-decoration: none; color:#fff;">排序</a>
+        </div>
+    </div>
     <div data-role="content"><p class="punch-time">2015/2/25</p>
         <div id="NNeedl"></div>
         <!--所有机器排序,需要后台遍历-->

@@ -1,0 +1,78 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="../../css/jquery.mobile.css">
+    <link rel="stylesheet" href="../../css/my-custom-theme.css">
+    <link rel="stylesheet" href="../../css/jquery.mobile.icons.min.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <style>
+        .decisionHeaderNav {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            border: 1px solid #aaa;
+            height: 90%;
+            border-radius: 15px;
+        }
+
+        .decisionHeaderNav a {
+            line-height: 30px;
+        }
+    </style>
+    <script src="../../js/jquery-2.1.4.min.js"></script>
+    <script src="../../js/jquery.mobile.js"></script>
+    <script src="../../js/dt.js"></script>
+    <script src="../../js/stitches-container.js"></script>
+    <script src="../../js/pie.js"></script>
+    <script src="../../js/fc.js"></script>
+    <script>$(function () {
+        FastClick.attach(document.body);
+    });</script>
+    <script>
+        $(function () {
+            $('.ui-btn').css({
+                'background': '#f6f6f6',
+                'color': '#000'
+            });
+            $('.ui-header .ui-title ~ .ui-navbar .ui-btn').css({
+                'border-left-width': '0',
+                'border-bottom-width': '1px',
+                'border-right': '1px solid #ddd'
+            })
+        })
+    </script>
+</head>
+<body>
+<div data-role="page" id="factory">
+    <div data-role="header"><a href="#" data-role="button" data-rel="back" data-icon="carat-l"
+                               data-iconpos="notext"></a>
+
+        <h1 style="position:relative">
+            <div class="decisionHeaderNav ui-grid-b">
+                <a href="#" class="color-white ui-block-a">工厂</a>
+                <a href="workshop.html" class="color-white ui-block-b" data-transition="none">车间</a>
+                <a href="machine.html" class="color-white ui-block-c" data-transition="none">机器</a>
+            </div>
+        </h1>
+
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#" class="ui-btn-active ui-state-persist">日</a></li>
+                <li><a href="#">月</a></li>
+                <li><a href="#">年</a></li>
+            </ul>
+        </div>
+    </div>
+    <div data-role="content">
+        <div id="stitches-container"></div>
+        <div id="pie-container"></div>
+    </div>
+</div>
+</body>
+</html>
