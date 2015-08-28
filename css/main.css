@@ -404,3 +404,11 @@ textarea {
 .color-white {
     color: #fff !important;
 }
+
+/*趋势图*/
+.colred {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #c31f26 !important;
+}
