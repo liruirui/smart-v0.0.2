@@ -14,14 +14,30 @@
     <script>$(function () {
         FastClick.attach(document.body);
     });</script>
+    <style>
+        .bor-pink {
+            border: 1px solid #E6A4A7;
+            border-radius: 10px;
+        }
+
+        .bor-lr {
+            border-left: 1px solid #fff;
+            border-right: 1px solid #fff;
+        }
+    </style>
 </head>
 <body>
 <div data-role="page" id="machine" class="machine">
     <div data-role="header"><a href="#" data-role="button" data-rel="back" data-icon="carat-l"
                                data-iconpos="notext"></a>
 
-        <h1><a href="factory.html" data-transition="none">工厂</a><a href="workshop.html" data-transition="none">车间</a><a
-                href="#">机器</a></h1>
+        <h1>
+            <div class="bor-pink">
+                <a class="color-white" href="factory.html" data-transition="none">工厂</a>
+                <a class="color-white bor-lr" href="workshop.html" data-transition="none">车间</a>
+                <a class="color-white" href="#">机器</a>
+            </div>
+        </h1>
     </div>
 
     <form data-role="content" method="post" action="" id="chooseBoot">
