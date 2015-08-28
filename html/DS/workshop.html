@@ -23,26 +23,19 @@
         <h1><a href="factory.html" data-transition="none">工厂</a><a href="#">车间</a><a href="machine.html"
                                                                                      data-transition="none">机器</a></h1>
     </div>
-    <div data-role="content">
-        <ul data-role="listview">
-            <li data-icon="false"><a href="#">未分类</a><a href="factory_details/workshopDetail.html"></a></li>
-            <li data-role="list-divider"></li>
-            <li data-icon="false"><a href="#">第一车间<span>（10台机器）</span></a><a
-                    href="factory_details/workshopDetail.html"></a></li>
-            <li data-icon="false"><a href="#">第二车间<span>（10台机器）</span></a><a
-                    href="factory_details/workshopDetail.html"></a></li>
-            <li data-role="list-divider"></li>
-            <li data-icon="false"><a href="#">第三车间<span>（10台机器）</span></a><a
-                    href="factory_details/workshopDetail.html"></a></li>
-            <li data-icon="false"><a href="#">第四车间<span>（10台机器）</span></a><a
-                    href="factory_details/workshopDetail.html"></a></li>
-            <li data-role="list-divider"></li>
-            <li data-icon="false"><a href="#">第五车间<span>（10台机器）</span></a><a
-                    href="factory_details/workshopDetail.html"></a></li>
-            <li data-icon="false"><a href="#">第六车间<span>（10台机器）</span></a><a
-                    href="factory_details/workshopDetail.html"></a></li>
-            <li data-role="list-divider"></li>
-        </ul>
+    <form data-role="content" method="post" action="" id="chooseWorkshop">
+        <fieldset data-role="controlgroup">
+            <label for="workshop-0">未分类</label><input type="radio" name="workshop" id="workshop-0" value="workshop-0">
+            <label for="workshop-1">第一车间</label><input type="radio" name="workshop" id="workshop-1" value="workshop-1">
+            <label for="workshop-2">第二车间</label><input type="radio" name="workshop" id="workshop-2" value="workshop-2">
+            <label for="workshop-3">第三车间</label><input type="radio" name="workshop" id="workshop-3" value="workshop-3">
+            <label for="workshop-4">第四车间</label><input type="radio" name="workshop" id="workshop-4" value="workshop-4">
+            <label for="workshop-5">第五车间</label><input type="radio" name="workshop" id="workshop-5" value="workshop-5">
+            <label for="workshop-6">第六车间</label><input type="radio" name="workshop" id="workshop-6" value="workshop-6">
+        </fieldset>
+    </form>
+    <div data-role="footer" data-position="fixed">
+        <a class="disinherit bgred" href="machine_details/machineDetail.html" data-role="button" form="chooseWorkshop">确定</a>
     </div>
 </div>
 </body>

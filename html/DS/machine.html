@@ -21,18 +21,21 @@
                                data-iconpos="notext"></a>
 
         <h1><a href="factory.html" data-transition="none">工厂</a><a href="workshop.html" data-transition="none">车间</a><a
-                href="#">机器</a></h1></div>
-    <div data-role="content">
-        <ul data-role="listview">
-            <li data-icon="false"><a href="#">机器NO.1</a><a href="machine_details/machineDetail.html"></a></li>
-            <li data-icon="false"><a href="#">机器NO.2</a><a href="machine_details/machineDetail.html"></a></li>
-            <li data-role="list-divider"></li>
-            <li data-icon="false"><a href="#">机器NO.3</a><a href="machine_details/machineDetail.html"></a></li>
-            <li data-icon="false"><a href="#">机器NO.4</a><a href="machine_details/machineDetail.html"></a></li>
-            <li data-role="list-divider"></li>
-            <li data-icon="false"><a href="#">机器NO.5</a><a href="machine_details/machineDetail.html"></a></li>
-            <li data-icon="false"><a href="#">机器NO.6</a><a href="machine_details/machineDetail.html"></a></li>
-        </ul>
+                href="#">机器</a></h1>
+    </div>
+    <form data-role="content" method="post" action="" id="chooseBoot">
+        <fieldset data-role="controlgroup">
+            <label for="boot-1">机器NO.1</label><input type="radio" name="boot" id="boot-1" value="boot-1">
+            <label for="boot-2">机器NO.2</label><input type="radio" name="boot" id="boot-2" value="boot-2">
+            <label for="boot-3">机器NO.3</label><input type="radio" name="boot" id="boot-3" value="boot-3">
+            <label for="boot-4">机器NO.4</label><input type="radio" name="boot" id="boot-4" value="boot-4">
+            <label for="boot-5">机器NO.5</label><input type="radio" name="boot" id="boot-5" value="boot-5">
+            <label for="boot-6">机器NO.6</label><input type="radio" name="boot" id="boot-6" value="boot-6">
+        </fieldset>
+    </form>
+    <div data-role="footer" data-position="fixed">
+        <a class="disinherit bgred" href="machine_details/machineDetail.html" data-role="button"
+           form="chooseBoot">确定</a>
     </div>
 </div>
 </body>
