@@ -17,11 +17,26 @@
     </div>
     <!--/head-->
     <form data-role="content" method="post" action="" id="signUp">
-            手机号<input type="text" placeholder="输入手机号"/>
-            验证码<input type="text" placeholder="输入验证码"/>
-
-            密码<input type="text" placeholder="再次输入新密码"/>
-            确认密码<input type="text" placeholder="再次输入新密码"/>
+        <div data-role="fieldcontain">
+            <table>
+                <tr>
+                    <td>手机号</td>
+                    <td><input type="tel" name="tel" placeholder="输入手机号"></td>
+                </tr>
+                <tr>
+                    <td>验证码</td>
+                    <td><input type="text" name="authCode" placeholder="输入验证码"></td>
+                </tr>
+                <tr>
+                    <td>密码</td>
+                    <td><input type="password" name="pwd" placeholder="输入新密码"></td>
+                </tr>
+                <tr>
+                    <td>确定密码</td>
+                    <td><input type="password" name="confirmPwd" placeholder="再次输入新密码"></td>
+                </tr>
+            </table>
+        </div>
     </form>
     <!--/content-->
 
