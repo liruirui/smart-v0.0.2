@@ -3931,7 +3931,7 @@ ul.ui-grid-a, ul.ui-grid-b, ul.ui-grid-c, ul.ui-grid-d, ul.ui-grid-solo, li.ui-b
     margin: .6em 0;
     text-overflow: ellipsis;
     overflow: hidden;
-    white-space: nowrap color : #5e5e5e;
+    white-space: nowrap
 }
 
 .ui-listview .ui-li-aside {
