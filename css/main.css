@@ -421,3 +421,9 @@ textarea {
 .bg-color-white {
     background-color: #fff !important;
 }
+
+/*底部按钮*/
+.bgred {
+    background: #c31f26 !important;
+    color: #fff !important;
+}
