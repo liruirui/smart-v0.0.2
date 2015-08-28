@@ -410,10 +410,13 @@ textarea {
 
 /*趋势图*/
 .colred {
+    color: #c31f26 !important;
+}
+
+.pos-a {
     position: absolute;
     top: 10px;
     right: 10px;
-    color: #c31f26 !important;
 }
 
 /*趋势图listview标题背景色*/
