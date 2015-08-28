@@ -412,3 +412,12 @@ textarea {
     right: 10px;
     color: #c31f26 !important;
 }
+
+/*趋势图listview标题背景色*/
+.border-none.color-d1 {
+    background: #d1d1d1 !important;
+}
+
+.bg-color-white {
+    background-color: #fff !important;
+}

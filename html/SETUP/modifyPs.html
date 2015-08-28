@@ -17,12 +17,19 @@
 </head>
 <body>
 <div data-role="page" id="modifyPs">
-    <div data-role="header"><a href="#" data-role="button" data-rel="back" data-icon="carat-l"
-                               data-iconpos="notext"></a>
+    <div data-role="header">
+        <a href="#" data-role="button" data-rel="back" data-icon="carat-l" data-iconpos="notext"></a>
 
-        <h1>修改密码</h1></div>
-    <form data-role="content" method="post" action="" id="FmodifyPwd"> 原密码<input type="text" placeholder="输入密码"/>
-        新密码<input type="text" placeholder="输入新密码"/> 确认密码<input type="text" placeholder="再次输入新密码"/></form>
+        <h1>修改密码</h1>
+    </div>
+
+    <form data-role="content" method="post" action="" id="FmodifyPwd">
+        <span>原密码</span><input type="text" placeholder="输入密码"/>
+        <span>新密码</span><input type="text" placeholder="输入新密码"/>
+        <span>确认密码</span><input type="text" placeholder="再次输入新密码"/>
+    </form>
+
+
     <div data-role="footer" data-position="fixed">
         <button form="FmodifyPwd">确定</button>
     </div>
