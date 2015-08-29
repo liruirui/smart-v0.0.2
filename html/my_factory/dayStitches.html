@@ -16,13 +16,6 @@
     <script>$(function () {
         FastClick.attach(document.body);
     });</script>
-    <script>
-        $(function () {
-            $('#sort').click(function (evt) {
-//                evt.preventDefault();
-            })
-        })
-    </script>
 </head>
 <body>
 <div data-role="page" id="dayStitches" class="dayStitches">
@@ -36,7 +29,9 @@
         </div>
     </div>
     <div data-role="content"><p class="punch-time">2015/2/25</p>
-        <div id="NNeedl"></div>
+
+        <div id="NNeedlQ"></div>
+        <div id="NNeedlH"></div>
         <!--所有机器排序,需要后台遍历-->
         <ul data-role="listview" class="space">
             <li data-icon="false"><a href="#">机器NO.1 生产针数：<span class="ui-li-count">5000</span></a></li>

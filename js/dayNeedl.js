@@ -34,7 +34,7 @@ $(function () {
         chart.redraw();
     }
 
-    var chart = $('#NNeedl').highcharts({
+    var chart = $('#NNeedlQ').highcharts({
         chart: {
             type: 'column'
         },
@@ -89,4 +89,59 @@ $(function () {
         }
     })
         .highcharts(); // return chart
+    var chart = $('#NNeedlH').highcharts({
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: '后五名产量机器的柱状报表'
+        },
+        subtitle: {
+            text: "工厂各车间生产发布柱状图"
+        },
+        xAxis: {
+            categories: categories
+        },
+        yAxis: {
+            title: {
+                text: '总生产针数'
+            }
+        },
+        plotOptions: {
+            column: {
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: true,
+                    color: colors[0],
+                    style: {
+                        fontWeight: 'bold'
+                    },
+                    formatter: function () {
+                        return this.y + '%';
+                    }
+                }
+            }
+        },
+        tooltip: {
+            formatter: function () {
+                var point = this.point,
+                    s = this.x + ':<b>' + this.y + '</b><br>';
+                if (point.drilldown) {
+                    s += 'Click to view ' + point.category + ' versions';
+                } else {
+                    s += '排名情况';
+                }
+                return s;
+            }
+        },
+        series: [{
+            name: name,
+            data: data,
+            color: 'white'
+        }],
+        exporting: {
+            enabled: false
+        }
+    })
+        .highcharts();
 });
